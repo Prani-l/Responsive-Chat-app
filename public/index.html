@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <!-- Include the external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Include the custom font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Chat container to hold the main chat interface -->
+  <div class="chat-container">
+      <!-- Chat sidebar to display the list of users -->
+      <div class="chat-sidebar">
+          <!-- User list will be displayed here -->
+          <div class="user-list" id="user-list"></div>
+      </div>
+      <!-- Main chat area -->
+      <div class="chat-main">
+          <!-- Room name will be displayed here -->
+          <h2 id="room-name"></h2>
+          <!-- Chat messages will be displayed in an unordered list -->
+          <ul class="chat-messages" id="messages"></ul>
+          <!-- Form to input and send messages -->
+          <form id="form" action="">
+              <input id="input" autocomplete="off" />
+              <button>Send</button>
+          </form>
+      </div>
+  </div>
+  <!-- Include the Socket.io library -->
+  <script src="/socket.io/socket.io.js"></script>
+  <!-- Include the client-side JavaScript -->
+  <script src="client.js"></script>
+</body>
+</html>
