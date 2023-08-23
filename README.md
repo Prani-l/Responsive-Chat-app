@@ -59,4 +59,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Made with ❤️ by [Pranil & chat gt](https://github.com/Prani-l)
+Made with ❤️ by [Pranil & chat gpt](https://github.com/Prani-l)
