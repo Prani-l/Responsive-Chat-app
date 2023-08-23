@@ -60,3 +60,5 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 Made with ❤️ by [Pranil & chat gpt](https://github.com/Prani-l)
+[Try the app](https://the-chat-app.onrender.com)
+
